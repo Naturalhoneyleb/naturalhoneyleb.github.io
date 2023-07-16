@@ -448,6 +448,118 @@
                 padding: 20px;
                 color: #fff;
             }
+            /*testimonials start*/
+            
+            .testi {
+                color: #fff;
+                padding: 25px 0px 0 150px;
+            }
+            
+            .testi h2 {
+                margin-bottom: 15px;
+                font-size: 30px;
+                position: relative;
+            }
+            
+            .testi h3 {
+                margin-left: 30px;
+                font-size: 13 px;
+                margin-right: 45px;
+                margin-top: 20px;
+            }
+            
+            .testi h2:hover {
+                color: #fff;
+                padding-left: 8px;
+                transition: all 0.3s ease;
+            }
+            
+            .testi h2::before {
+                content: '';
+                margin-left: 30px;
+                position: absolute;
+                left: 0;
+                bottom: -8px;
+                background-color: #e91e63;
+                height: 2px;
+                box-sizing: border-box;
+                width: 173px;
+            }
+            
+            .swiper {
+                width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
+            
+            .swiper-slide {
+                background-position: center;
+                background-size: cover;
+                position: relative;
+                background: rgba(255, 255, 255, 0.1);
+                max-width: 300px;
+                padding: 30px 0;
+                border-radius: 25px;
+                border: 1px solid#eee;
+                margin-left: 5px;
+            }
+            
+            .swiper-slide img {
+                display: block;
+                width: 100%;
+            }
+            
+            .testi-slide {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                row-gap: 10px;
+                height: 350px;
+            }
+            
+            .testi-slide img {
+                border-radius: 50%;
+                border: 1px solid#eee;
+                height: 170px;
+                width: 170px;
+                object-fit: cover;
+            }
+            
+            .testi-slide p {
+                text-align: center;
+                padding: 0 25px;
+                font-size: 14px;
+                font-weight: 400;
+                color: #eee;
+            }
+            
+            .testi-slide i {
+                font-size: 30px;
+                color: #4070f4;
+            }
+            
+            .testi-slide .details-testi {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .details-testi span {
+                font-size: 14px;
+                font-weight: 600;
+                color: #44b9ce98;
+                font-style: italic;
+                font-weight: bold;
+            }
+            /* .testi-content:hover {
+                transform: scale(1.1);
+                filter: brightness(1);
+            }
+            */
+            /*testimonials ends*/
             /*in breif section*/
             
             .breif {
@@ -1456,6 +1568,9 @@
                 .news {
                     padding: 10px 40px 5px 40px;
                 }
+                .testi {
+                    padding: 10px 40px 5px 40px;
+                }
                 .benefits {
                     padding: 10px 40px 5px 40px;
                 }
@@ -1493,6 +1608,9 @@
                     flex-direction: column;
                 }
                 .benefits {
+                    padding: 10px 10px 5px 10px;
+                }
+                .testi {
                     padding: 10px 10px 5px 10px;
                 }
                 .text-box h1 {
