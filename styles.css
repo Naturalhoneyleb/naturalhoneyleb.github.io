@@ -1611,6 +1611,10 @@
                 .benefits {
                     padding: 10px 10px 5px 10px;
                 }
+                .slide img {
+                    width: 360px;
+                    height: 120px;
+                }
                 .testi {
                     padding: 10px 10px 5px 10px;
                 }
