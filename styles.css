@@ -1520,33 +1520,6 @@
             /*start contnet media center*/
             /*end contnet media center*/
             
-            @media(max-width: 767px) {
-                .footer-col {
-                    width: 50%;
-                    margin-bottom: 30px;
-                }
-                .container-ft {
-                    padding: 0 45px 0 45px;
-                }
-                .footer-col {
-                    width: 50%;
-                    margin-bottom: 30px;
-                }
-                .row-about {
-                    flex-direction: column;
-                    padding: 0;
-                    margin-left: 0;
-                }
-                .about-item {
-                    width: 350px;
-                }
-                .grid {
-                    display: flex;
-                    flex-direction: column;
-                    width: auto;
-                }
-            }
-            
             @media(max-width: 1100px) {
                 .footer-col {
                     width: 25%;
@@ -1556,12 +1529,6 @@
                     flex-direction: column;
                     padding: 0;
                     margin-left: 0;
-                }
-            }
-            
-            @media(max-width: 574px) {
-                .footer-col {
-                    width: 100%;
                 }
             }
             
@@ -1599,6 +1566,52 @@
                 .breif {
                     padding: 10px 10px 5px 10px;
                 }
+                .intro {
+                    padding: 10px 40px 5px 40px;
+                }
+                .container-fluid-faq {
+                    width: 60%;
+                }
+                .target {
+                    padding: 10px 40px 5px 40px;
+                }
+                .text-box {
+                    left: 5%;
+                }
+                .row {
+                    left: 5%;
+                }
+                .footer-col {
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+                .container-ft {
+                    padding: 0 45px 0 45px;
+                }
+                .footer-col {
+                    width: 50%;
+                    margin-bottom: 30px;
+                }
+                .row-about {
+                    flex-direction: column;
+                    padding: 0;
+                    margin-left: 0;
+                }
+                .about-item {
+                    width: 350px;
+                }
+                .grid {
+                    display: flex;
+                    flex-direction: column;
+                    width: auto;
+                }
+            }
+            
+            @media(max-width: 360px) {
+                .slide img {
+                    width: 360px;
+                    height: 120px;
+                }
             }
             
             @media(max-width: 574px) {
@@ -1610,10 +1623,6 @@
                 }
                 .benefits {
                     padding: 10px 10px 5px 10px;
-                }
-                .slide img {
-                    width: 360px;
-                    height: 120px;
                 }
                 .testi {
                     padding: 10px 10px 5px 10px;
@@ -1636,18 +1645,6 @@
                 .page-title {
                     display: none;
                 }
-            }
-            
-            @media(max-width: 767px) {
-                .intro {
-                    padding: 10px 40px 5px 40px;
-                }
-                .container-fluid-faq {
-                    width: 60%;
-                }
-            }
-            
-            @media(max-width: 574px) {
                 .intro {
                     padding: 10px 10px 5px 10px;
                 }
@@ -1672,29 +1669,11 @@
                 .container-fluid-faq h2::after {
                     right: 250px;
                 }
-            }
-            
-            @media(max-width: 767px) {
-                .target {
-                    padding: 10px 40px 5px 40px;
-                }
-            }
-            
-            @media(max-width: 574px) {
                 .target {
                     padding: 10px 10px 5px 10px;
                 }
-            }
-            
-            @media(max-width: 767px) {
-                .text-box {
-                    left: 5%;
-                }
-            }
-            
-            @media(max-width: 767px) {
-                .row {
-                    left: 5%;
+                .footer-col {
+                    width: 100%;
                 }
             }
             
