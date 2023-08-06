@@ -1708,7 +1708,7 @@ ul {
     display: none;
 }
 
-img {
+.mySlides img {
     vertical-align: middle;
     border-radius: 25px;
 }
