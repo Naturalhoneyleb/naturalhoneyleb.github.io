@@ -1495,6 +1495,12 @@
                     margin-top: 8px;
                 }
                 
+                .nameprice span span {
+                    color: #747070;
+                    font-size: large;
+                    text-decoration: line-through;
+                }
+                
                 .details-product {
                     position: absolute;
                     bottom: 20px;
