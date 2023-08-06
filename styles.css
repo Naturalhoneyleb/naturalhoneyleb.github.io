@@ -1523,6 +1523,17 @@
                     color: #24262b;
                     background-color: #fff;
                 }
+                
+                .save-tag {
+                    border-radius: 5px;
+                    border: #fff solid 1px;
+                    position: absolute;
+                    padding: 0 5px;
+                    font-weight: bold;
+                    rotate: -25deg;
+                    background-color: #fff;
+                    color: #000;
+                }
                 /*end contnet products*/
                 /*start contnet media center*/
                 /*end contnet media center*/
