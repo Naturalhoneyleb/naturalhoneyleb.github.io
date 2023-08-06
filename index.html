@@ -165,42 +165,35 @@
     </section>
     <section class="benefits">
         <h2><img src="images/icon0.png">Benefits</h2>
-        <div class="slider-ben">
-            <div class="slide-ben">
-                <!--radio buttons start-->
-                <input type="radio" name="radio-btn" id="radio1">
-                <input type="radio" name="radio-btn" id="radio2">
-                <input type="radio" name="radio-btn" id="radio3">
-                <!--radio buttons end-->
-                <!--slides images start-->
-                <div class="slide first">
-                    <img src="images/carousel1.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="images/carousel2.jpg" alt="">
-                </div>
-                <div class="slide">
-                    <img src="images/carousel3.jpg" alt="">
-                </div>
-                <!--slides images ends-->
-                <!--automatic nav starts-->
-                <div class="navigation-auto">
-                    <div class="auto-btn1"></div>
-                    <div class="auto-btn2"></div>
-                    <div class="auto-btn3"></div>
+        <div class="slideshow-container">
 
-                </div>
-                <!--automatic nav ends-->
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <img src="images/carousel2.jpg" style="width:100%">
+                <div class="text">Caption Text</div>
             </div>
-            <!--manual nav starts-->
-            <div class="navigation-manual">
-                <label for="radio1" class="manual-btn"></label>
-                <label for="radio2" class="manual-btn"></label>
-                <label for="radio3" class="manual-btn"></label>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <img src="images/carousel1.jpg" style="width:100%">
+                <div class="text">Caption Two</div>
             </div>
-            <!--manual nav ends-->
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <img src="images/carousel3.jpg" style="width:100%">
+                <div class="text">Caption Three</div>
+            </div>
+
         </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
         </div>
+
     </section>
     <section class="testi">
         <h2><img src="images/icon0.png">Testimonials</h2>
@@ -424,6 +417,29 @@
             },
         });
     </script>
+    <script>
+        let slideIndex = 0;
+        showSlides();
+
+        function showSlides() {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            slideIndex++;
+            if (slideIndex > slides.length) {
+                slideIndex = 1
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+            setTimeout(showSlides, 2000); // Change image every 2 seconds
+        }
+    </script>
 </body>
 <script>
     ! function() {
@@ -446,5 +462,6 @@
         })))
     }();
 </script>
+
 
 </html>
