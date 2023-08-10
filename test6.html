@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Make your Order</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <form action="#" class="form">
+        <img src="images/banner_cut.png" alt="">
+        <h1>Natural Honey of Lebanon</h2>
+
+            <!-- Progress bar -->
+            <div class="progressbar">
+                <div class="progress" id="progress"></div>
+
+                <div class="progress-step progress-step-active" data-title="Information"></div>
+                <div class="progress-step" data-title="Shop"></div>
+                <div class="progress-step" data-title="Shipping & Payment"></div>
+
+            </div>
+
+            <!-- Steps -->
+            <div class="form-step form-step-active">
+                <p> Please feel free to place your order here.<br> Shipping: <br>$2 all over Lebanon <br>Free Shipping over $50 <br>Payment: Cash on Delivery. <br>For more information please do not hesitate to contact us via whatsapp : 961 79 134 647</p>
+
+                <div class="input-group">
+                    <div class="name">
+                        <h4>Name <span>*</span></h4>
+                        <input type="text" name="First-name" placeholder="First Name" required>
+                    </div>
+                    <div class="L-name">
+                        <h4>Last Name <span>*</span></h4>
+                        <input type="text" name="last-name" placeholder="Last Name" required>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="ph-num">
+                        <h4>Phone Number <span>*</span></h4>
+                        <input type="text" name="phone-nb" placeholder="Enter your Phone nb" required>
+                    </div>
+                    <div class="email-input">
+                        <h4>E-mail Address <span>*</span></h4>
+                        <input type="email" name="Email" placeholder="Enter your E-mail">
+                        <p>Please insert your email address to receive the invoice receipt & have the chance to get extra discount via Coupons Code</p>
+
+                    </div>
+                </div>
+                <div class="">
+                    <a href="#" class="btn btn-next width-50 ml-auto">Next &rarr;</a>
+                </div>
+            </div>
+            <div class="form-step">
+                <p>For order more the 6 for the same item contact us via whatsapp. </p>
+                <div class="input-group">
+                    <div class="prd-shop">
+                        <div class="prod-view">
+                            <h3>Honey Large 850g</h3>
+                            <img src="images/Honey-prd.png" alt="">
+                            <div class="in-put"><input type="number" name="qty-prd" placeholder="-Choose-"></div>
+
+                            <p>$23.99 <span class="price">$29.99</span> </p>
+                        </div>
+                        <div class="prod-view">
+                            <h3>Honey 330g</h3>
+                            <img src="images/Honey-prd-small.png" alt="">
+                            <div class="in-put"><input type="number" name="qty-prd" placeholder="-Choose-"></div>
+
+                            <p>$11.99 <span class="price">$14.99</span> </p>
+                        </div>
+
+                        <div class="prod-view">
+                            <h3>Honey Comb 1Kg</h3>
+                            <img src="images/Honey-comb-prd.png" alt="">
+                            <div class="in-put"><input type="number" name="qty-prd" placeholder="-Choose-"></div>
+
+                            <p>$29.99 <span class="price">$34.99</span> </p>
+                        </div>
+                        <div class="prod-view">
+                            <h3>Honey Comb 0.5Kg</h3>
+                            <img src="images/Honey-comb-prd-small.png" alt="">
+                            <div class="in-put"><input type="number" name="qty-prd" placeholder="-Choose-"></div>
+
+                            <p>$14.99 <span class="price">$17.99</span> </p>
+                        </div>
+                        <div class="prod-view">
+                            <h3>Pollen 400g</h3>
+                            <img src="images/pollen_long.png" alt="">
+                            <div class="in-put"><input type="number" name="qty-prd" placeholder="-Choose-"></div>
+
+                            <p>$19.99 <span class="price">$23.99</span> </p>
+                        </div>
+                        <div class="prod-view">
+                            <h3>Pollen 200g</h3>
+                            <img src="images/pollen-prd.png" alt="">
+                            <div class="in-put"><input type="number" name="qty-prd" placeholder="-Choose-"></div>
+
+                            <p>$9.99 <span class="price">$11.99</span> </p>
+                        </div>
+                        <div class="prod-view">
+                            <h3>Honey Vinegar</h3>
+                            <img src="images/vinegar bottle filled0.png" alt="">
+                            <div class="in-put"><input type="number" name="qty-prd" placeholder="-Choose-"></div>
+
+                            <p>$1.99 <span class="price">$3.99</span> </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="btns-group">
+                    <a href="#" class="btn btn-prev">&larr; Back</a>
+                    <a href="#" class="btn btn-next">Next &rarr;</a>
+                </div>
+            </div>
+            <div class="form-step">
+                <h1>Shipping Details & Payment </h1>
+                <p> Shipping: 2$ Shipping all over Lebanon
+                    <br>Free Shipping for Order over $50 <br>Payment: Cash on Delivery </p>
+                <div class="input-group">
+                    <div class="name">
+                        <h4>Country/البلد </h4>
+                        <select id="Country" name="Country">
+                    <option value="Country">Lebanon</option>
+                    
+                  </select>
+
+                    </div>
+                    <div class="L-name">
+                        <h4> Governorate/المحافظة <span>*</span> </h4>
+                        <select id="gover" name="gover" required>
+                    <option value=""></option>
+                    <option value="Bekaa">Bekaa</option>
+                    <option value="Beirut">Beirut</option>
+                    <option value="Mount Lebanon">Mount Lebanon</option>
+                    <option value="Baalbak-Hermel">Baalbak-Hermel</option>
+                    <option value="South Lebanon">South Lebanon</option>
+                    <option value="Nabatiye">Nabatiye</option>
+                    <option value="North Lebanon">North Lebanon</option>
+                    <option value="Akkar">Akkar</option>
+                  </select>
+                    </div>
+                </div>
+                <div class="input-group">
+                    <div class="city">
+                        <h4> City/المدينة <span>*</span> </h4>
+                        <input type="text" name="city" placeholder="City" required></div>
+                </div>
+                <div class="input-group">
+                    <div class="address">
+                        <h4> Address/العنوان <span>*</span> </h4>
+                        <textarea id="address" required="required"></textarea></div>
+                </div>
+                <div class="input-group">
+                    <div class="altnb">
+                        <h4> Alternative Phone number/رقم هاتف بديل</h4>
+                        <input type="text" name="altnb"></div>
+                    <div class="coupon">
+                        <h4> Coupon Code </h4>
+                        <input type="text" name="coupon"></div>
+                </div>
+                <div class="btns-group">
+                    <a href="#" class="btn btn-prev">&larr; Back</a>
+                    <input type="submit" value="Submit &#x2713" class="btn" />
+                </div>
+            </div>
+            <!--<div class="form-step">
+
+                <div class="btns-group">
+                    <a href="#" class="btn btn-prev">&larr; Back</a>
+                    <input type="submit" value="Submit &#x2713" class="btn" />
+                </div>
+            </div>-->
+            </div>
+    </form>
+</body>
+<script>
+    const prevBtns = document.querySelectorAll(".btn-prev");
+    const nextBtns = document.querySelectorAll(".btn-next");
+    const progress = document.getElementById("progress");
+    const formSteps = document.querySelectorAll(".form-step");
+    const progressSteps = document.querySelectorAll(".progress-step");
+
+    let formStepsNum = 0;
+
+    nextBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            formStepsNum++;
+            updateFormSteps();
+            updateProgressbar();
+        });
+    });
+
+    prevBtns.forEach((btn) => {
+        btn.addEventListener("click", () => {
+            formStepsNum--;
+            updateFormSteps();
+            updateProgressbar();
+        });
+    });
+
+    function updateFormSteps() {
+        formSteps.forEach((formStep) => {
+            formStep.classList.contains("form-step-active") &&
+                formStep.classList.remove("form-step-active");
+        });
+
+        formSteps[formStepsNum].classList.add("form-step-active");
+    }
+
+    function updateProgressbar() {
+        progressSteps.forEach((progressStep, idx) => {
+            if (idx < formStepsNum + 1) {
+                progressStep.classList.add("progress-step-active");
+            } else {
+                progressStep.classList.remove("progress-step-active");
+            }
+        });
+
+        const progressActive = document.querySelectorAll(".progress-step-active");
+
+        progress.style.width =
+            ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + "%";
+    }
+</script>
+
+</html>
+<style>
+     :root {
+        --primary-color: rgb(11, 78, 179);
+    }
+    
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Work Sans', sans-serif;
+        margin: 0;
+        display: grid;
+        place-items: center;
+        min-height: 100vh;
+    }
+    /* Global Stylings */
+    
+    label {
+        display: block;
+        margin-bottom: 0.5rem;
+    }
+    
+    input {
+        width: 300px;
+        margin: 0 15px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #f5f7f8;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    textarea {
+        width: 300px;
+        height: 300px;
+        margin: 0 15px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #f5f7f8;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    select {
+        width: 300px;
+        margin: 0 15px;
+        height: 35px;
+        border-radius: 5px;
+        background-color: #f5f7f8;
+        box-sizing: border-box;
+        border: none;
+    }
+    
+    .width-50 {
+        width: 50%;
+    }
+    
+    .ml-auto {
+        margin-left: auto;
+    }
+    
+    .text-center {
+        text-align: center;
+    }
+    /* Progressbar */
+    
+    .progressbar {
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        counter-reset: step;
+        margin: 2rem 0 4rem;
+    }
+    
+    .progressbar::before,
+    .progress {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 4px;
+        width: 100%;
+        background-color: #dcdcdc;
+        z-index: -1;
+    }
+    
+    .progress {
+        background-color: var(--primary-color);
+        width: 0%;
+        transition: 0.3s;
+    }
+    
+    .progress-step {
+        width: 2.1875rem;
+        height: 2.1875rem;
+        background-color: #dcdcdc;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .progress-step::before {
+        counter-increment: step;
+        content: counter(step);
+    }
+    
+    .progress-step::after {
+        content: attr(data-title);
+        position: absolute;
+        top: calc(100% + 0.5rem);
+        font-size: 0.85rem;
+        color: #666;
+    }
+    
+    .progress-step-active {
+        background-color: var(--primary-color);
+        color: #f3f3f3;
+    }
+    /* Form */
+    
+    .form {
+        margin: 0 auto;
+        border: 1px solid #ccc;
+        border-radius: 0.35rem;
+        padding: 1.5rem;
+        width: 60%;
+        max-width: 900px;
+        width: 100%;
+    }
+    
+    .form-step {
+        display: none;
+        transform-origin: top;
+        animation: animate 0.5s;
+    }
+    
+    .form-step-active {
+        display: block;
+    }
+    
+    .input-group {
+        margin: 2rem 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    @keyframes animate {
+        from {
+            transform: scale(1, 0);
+            opacity: 0;
+        }
+        to {
+            transform: scale(1, 1);
+            opacity: 1;
+        }
+    }
+    /* Button */
+    
+    .btns-group {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .btn {
+        padding: 0.75rem;
+        display: block;
+        text-decoration: none;
+        background-color: var(--primary-color);
+        color: #f3f3f3;
+        text-align: center;
+        border-radius: 0.25rem;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+    
+    .btn:hover {
+        box-shadow: 0 0 0 2px #fff, 0 0 0 3px var(--primary-color);
+    }
+    
+    span {
+        color: #ff001f;
+    }
+    
+    .email-input p {
+        width: 300px;
+        font-size: 12px;
+        letter-spacing: .2px;
+        margin-left: 15px;
+    }
+    
+    .prod-view {
+        display: inline-block;
+        justify-content: center;
+    }
+    
+    .prod-view p {
+        font-weight: bold;
+        font-size: 15px;
+    }
+    
+    .prod-view h3 {
+        font-weight: bold;
+    }
+    
+    .prod-view p span {
+        text-decoration: line-through;
+    }
+    
+    .prod-view img {
+        width: 300px;
+        position: relative;
+    }
+    
+    .prd-shop {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .form img {
+        display: block;
+        max-width: 100%
+    }
+</style>
