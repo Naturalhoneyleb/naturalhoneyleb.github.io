@@ -25,11 +25,17 @@
 </head>
 
 <body>
+    <!--
+    <section class="announcment">
+        <div>
+            <p>Free Shipping Over $30</p>
+        </div>
+    </section>-->
     <header>
         <input type="checkbox" id="check">
         <label for="check" class="checkbtn"><i class="fas fa-bars"></i></label>
         <h2>
-            <a href="#" class="logo"></a>
+            <a href="#" class="logo"> </a>
         </h2>
         <ul>
             <li><a href="#" class="active">Home</a></li>
@@ -47,11 +53,15 @@
             <h1>Natural Honey <br>Of Lebanon</h1>
             <p>100% Natural</p>
         </div>
+        <div class="shopcart">
+            <a href="test6.html"><i class="fas fa-shopping-cart"></i></a>
+        </div>
         <!--<img src="images/2.png" id="bk2">
             <img src="images/3.png" id="bk3">
             <img src="images/4.png" id="bk4">
             <img src="images/5.png" id="bk5">
             <img src="images/8.png" id="bk8">-->
+
     </section>
     <div class="social-icons">
         <div class="social-links">
@@ -437,7 +447,7 @@
             }
             slides[slideIndex - 1].style.display = "block";
             dots[slideIndex - 1].className += " active1";
-            setTimeout(showSlides, 2000); // Change image every 2 seconds
+            setTimeout(showSlides, 2500); // Change image every 2 seconds
         }
     </script>
 </body>
@@ -454,7 +464,7 @@
                 boxShadow: "none",
                 text: "",
                 theme: "light",
-                position: "left",
+                position: "right",
                 mb: "20px",
                 mx: "20px",
                 radius: "25px"
