@@ -41,21 +41,21 @@
                 <div class="input-group">
                     <div class="name">
                         <h4>Name <span>*</span></h4>
-                        <input type="text" name="entry.293959670" placeholder="First Name" required>
+                        <input type="text" id="namewt" name="entry.293959670" placeholder="First Name" required>
                     </div>
                     <div class="L-name">
                         <h4>Last Name <span>*</span></h4>
-                        <input type="text" name="entry.750034870" placeholder="Last Name" required>
+                        <input type="text" id="lname" name="entry.750034870" placeholder="Last Name" required>
                     </div>
                 </div>
                 <div class="input-group">
                     <div class="ph-num">
                         <h4>Phone Number <span>*</span></h4>
-                        <input type="text" name="entry.271620433" placeholder="Enter your Phone nb" required>
+                        <input type="text" id="phnbwt" name="entry.271620433" placeholder="Enter your Phone nb" required>
                     </div>
                     <div class="email-input">
                         <h4>E-mail Address <span>*</span></h4>
-                        <input type="email" name="entry.17730807" placeholder="Enter your E-mail">
+                        <input type="email" id="mailwt" name="entry.17730807" placeholder="Enter your E-mail">
                         <p>Please insert your email address to receive the invoice receipt & have the chance to get extra discount via Coupons Code</p>
 
                     </div>
@@ -138,7 +138,7 @@
                     <div class="name">
                         <h4>Country/البلد </h4>
                         <select id="Country" name="entry.31371221">
-                    <option value="Country">Lebanon</option>
+                    <option value="Lebanon" id="countrywt">Lebanon</option>
                     
                   </select>
 
@@ -161,7 +161,7 @@
                 <div class="input-group">
                     <div class="city">
                         <h4> City/المدينة <span>*</span> </h4>
-                        <input type="text" name="entry.1132236181" placeholder="City" required></div>
+                        <input type="text" id="citywt" name="entry.1132236181" placeholder="City" required></div>
                 </div>
                 <div class="input-group">
                     <div class="address">
@@ -178,7 +178,7 @@
                 </div>
                 <div class="btns-group ">
                     <a href="# " class="btn btn-prev ">&larr; Back</a>
-                    <button type="submit " class="btn ">Submit &#x2713;</button>
+                    <button type="submit " class="btn " onclick="whatsapp()">Submit &#x2713;</button>
                 </div>
             </div>
             <!--<div class="form-step ">
@@ -238,6 +238,28 @@
 
         progress.style.width =
             ((progressActive.length - 1) / (progressSteps.length - 1)) * 100 + "%";
+    }
+</script>
+<script>
+    function whatsapp() {
+        var name = document.getElementById("namewt").value;
+        var lname = document.getElementById("lname").value;
+        var mobile = document.getElementById("phnbwt").value;
+        var email = document.getElementById("mailwt").value;
+        var country = document.getElementById("countrywt").value;
+        var gover = document.getElementById("gover").value;
+        var city = document.getElementById("citywt").value;
+        var address = document.getElementById("address").value;
+
+        var whatsappurl = "https://wa.me/96179134647?text=" +
+            '_*Natural Honey of Lebanon*_' + '%0a' +
+            '*Name*: ' + name + ' ' + lname + '%0a' +
+            '*Mobile nb*: ' + mobile + '%0a' +
+            '*E-mail*: ' + email + '%0a' +
+            '*Address*: ' + '%0a' +
+            country + '-' + gover + '-' + city + '-' + address;
+        window.open(whatsappurl, '_blank').focus;
+
     }
 </script>
 
