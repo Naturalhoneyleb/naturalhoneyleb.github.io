@@ -258,22 +258,11 @@
             '*E-mail*: ' + email + '%0a' +
             '*Address*: ' + '%0a' +
             country + '-' + gover + '-' + city + '-' + address;
-        window.open(whatsappurl).focus;
+        window.open(whatsappurl, '_blank').focus;
 
     }
 </script>
-<script>
-    var load = 0;
 
-    document.getElementById('gform').onload = function() {
-        /*Execute on every reload on iFrame*/
-        load++;
-        if (load > 1) {
-            /*Second reload is a submit*/
-            document.location = "https://www.naturalhoneyleb.com";
-        }
-    }
-</script>
 </html>
 <style>
      :root {
