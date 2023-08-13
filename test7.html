@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeAA8QxOfHS9eltMI68lhrk3Mjhoqf5go-Pn4A1QSt_5YJVlA/formResponse" class="form">
+    <form id="gform" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeAA8QxOfHS9eltMI68lhrk3Mjhoqf5go-Pn4A1QSt_5YJVlA/formResponse" class="form">
         <img src="images/banner_cut.png" alt="">
         <h1>Natural Honey of Lebanon</h2>
 
@@ -262,7 +262,18 @@
 
     }
 </script>
+<script>
+    var load = 0;
 
+    document.getElementById('gform').onload = function() {
+        /*Execute on every reload on iFrame*/
+        load++;
+        if (load > 1) {
+            /*Second reload is a submit*/
+            document.location = "https://www.naturalhoneyleb.com";
+        }
+    }
+</script>
 </html>
 <style>
      :root {
