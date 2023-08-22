@@ -199,7 +199,31 @@
         left: 95%;
     }
     
-    .social-icons a {
+    .social-icons1 {
+        position: relative;
+        display: flex;
+        align-items: last baseline;
+        justify-content: right;
+        margin-left: 95%;
+        padding-bottom: 110px;
+    }
+    
+    .social-icons2 {
+        display: none;
+    }
+    
+    @media(max-width: 915px) {
+        .social-icons2 {
+            margin-left: 50px;
+            display: flex;
+            position: relative;
+        }
+        .social-icons1 {
+            display: none;
+        }
+    }
+    
+    .social-icons1 a {
         display: inline-block;
         height: 40px;
         width: 40px;
@@ -212,7 +236,25 @@
         transition: all 0.5s ease;
     }
     
-    .social-icons a:hover {
+    .social-icons2 a {
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        background-color: rgba(255, 255, 255, 0.2);
+        margin: 0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    
+    .social-icons2 a:hover {
+        color: #24262b;
+        background-color: #fff;
+    }
+    
+    .social-icons1 a:hover {
         color: #24262b;
         background-color: #fff;
     }
