@@ -20,7 +20,6 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
-            background-color: #000;
         }
         
         header .logo {
@@ -1991,6 +1990,9 @@ filter: brightness(1);
         }
         
         @media(max-width: 858px) {
+            header {
+                background-color: #000;
+            }
             header .logo {
                 margin-left: 30%;
             }
