@@ -27,8 +27,25 @@
             text-transform: uppercase;
         }
         
-        .shop a {
+        .shop {
             padding: 10px;
+            color: #fff;
+        }
+        
+        .search {
+            display: none;
+            margin-bottom: 10px;
+        }
+        
+        .search a {
+            padding: 6px 15px;
+            border-radius: 20px;
+            transition: all 0.2s ease;
+        }
+        
+        .search a:hover {
+            background: #fff;
+            color: #200016;
         }
         
         .checkbtn {
@@ -1834,6 +1851,10 @@ filter: brightness(1);
         }
         
         @media(max-width: 915px) {
+            .search {
+                display: flex;
+                justify-content: center;
+            }
             .news {
                 padding: 10px 40px 5px 40px;
             }

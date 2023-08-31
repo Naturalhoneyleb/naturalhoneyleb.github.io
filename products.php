@@ -38,9 +38,35 @@ $page='product';include ('header.php');
 
                 </div>
                 <div class="products">
-                    <div class="product">
+                <div class="product">
+                    <div class="image">
+                        <img src="images/Honey-prd.png" alt="">
+                    </div>
+                    <div class="save-tag">
+
+                        <p><i class="fas fa-tag"></i>Save $6</p>
+                    </div>
+                    <div class="nameprice">
+                        <h3>Honey</h3>
+                        <span>$23.99<br><span>$29.99</span></span>
 
                     </div>
+                    <p>Floral - Wild Flower Honey.</p>
+                    <div class="stars">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                    </div>
+                    <div class="details-product">
+                        <a href="gallery/Details_prdcts/1.jpg" data-lightbox="models">Details</a>
+                        <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
+                    </div>
+                    <!--<div class="add-cart">
+                        <a href="gallery/Details_prdcts/1.jpg" data-lightbox="models"> Go to Shop</a>
+                    </div>-->
+                </div>
                     <div class="product">
                         <div class="image">
                             <img src="images/Honey-prd-small.png" alt="">
@@ -64,7 +90,7 @@ $page='product';include ('header.php');
                         </div>
                         <div class="details-product">
                             <a href="gallery/Details_prdcts/2.jpg" data-lightbox="models">Details</a>
-                            <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                            <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                         </div>
                     </div>
                     <div class="product">
@@ -90,7 +116,7 @@ $page='product';include ('header.php');
                         </div>
                         <div class="details-product">
                             <a href="gallery/Details_prdcts/3.jpg" data-lightbox="models">Details</a>
-                            <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                            <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
 
                         </div>
                     </div>
@@ -117,7 +143,7 @@ $page='product';include ('header.php');
                         </div>
                         <div class="details-product">
                             <a href="gallery/Details_prdcts/4.jpg" data-lightbox="models">Details</a>
-                            <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                            <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                         </div>
                     </div>
                     <div class="product">
@@ -143,7 +169,7 @@ $page='product';include ('header.php');
                         </div>
                         <div class="details-product">
                             <a href="gallery/Details_prdcts/8.jpg" data-lightbox="models">Details</a>
-                            <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                            <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                         </div>
 
                     </div>
@@ -169,7 +195,7 @@ $page='product';include ('header.php');
                         </div>
                         <div class="details-product">
                             <a href="gallery/Details_prdcts/5.jpg" data-lightbox="models">Details</a>
-                            <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                            <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                         </div>
                     </div>
                     <!--<div class="product">
@@ -191,7 +217,7 @@ $page='product';include ('header.php');
                     </div>
                     <div class="details-product">
                         <a href="gallery/Details_prdcts/6.jpg" data-lightbox="models">Details</a>
-                        <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                        <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                     </div>
                 </div>-->
                     <div class="product">
@@ -216,7 +242,7 @@ $page='product';include ('header.php');
                         </div>
                         <div class="details-product">
                             <a href="gallery/Details_prdcts/7.jpg" data-lightbox="models">Details</a>
-                            <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                            <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                         </div>
                     </div>
                     <!--<div class="product">
@@ -238,7 +264,7 @@ $page='product';include ('header.php');
                     </div>
                     <div class="details-product">
                         <a href="gallery/Details_prdcts/8.jpg" data-lightbox="models">Details</a>
-                        <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                        <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                     </div>
                 </div>
                 <div class="product">
@@ -260,7 +286,7 @@ $page='product';include ('header.php');
                     </div>
                     <div class="details-product">
                         <a href="gallery/Details_prdcts/9.jpg" data-lightbox="models">Details</a>
-                        <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                        <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                     </div>
                 </div>
                 <div class="product">
@@ -282,7 +308,7 @@ $page='product';include ('header.php');
                     </div>
                     <div class="details-product">
                         <a href="gallery/Details_prdcts/10.jpg" data-lightbox="models">Details</a>
-                        <a href="test7.html"><i class="fas fa-cart-arrow-down"></i>Place your Order</a>
+                        <a href="shop.php"><i class="fas fa-cart-arrow-down"></i> Go to Shop</a>
                     </div>
                 </div>-->
                 </div>
