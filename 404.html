@@ -20,7 +20,7 @@
         <h2>Ooops..</h2>
         <h3>Page Not Found!</h3>
         <a href="index.html"><img src="images/logo-footer.png"></a>
-        <a href="index.html">Go Home</a>
+        <a href="index.html" class="btn-bk">&larr;Go Home</a>
     </div>
 
 </body>
@@ -31,5 +31,17 @@
         align-items: center;
         color: #fff;
         flex-direction: column;
+    }
+    
+    .btn-bk {
+        border: #fff solid 1px;
+        border-radius: 25px;
+        padding: 5px;
+    }
+    
+    .btn-bk:hover {
+        color: #000;
+        background-color: #fff;
+        transition: ease 0.1s;
     }
 </style>
